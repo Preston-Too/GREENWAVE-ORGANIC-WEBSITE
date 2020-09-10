@@ -38,5 +38,144 @@
           transition: 0.5s;
           text-transform: uppercase;
       }
+      #health{
+          font-size: 50px;
+          color: purple;
+      }
+      #quote{
+          font-size: 30px;
+          font-style: italic;
+      }
+      .mission h3{
+          text-align: center;
+          color: green;
+          font-size: 50px;
+          padding: 30px;
+      }
+      .mission p{
+          font-size: 30px;
+          height: 100px;
+      }
       
-      
+        
+      .aboutUs h3{
+        text-align:center;
+        font-size: 30px;
+        color:green;
+        padding:30px;
+     
+    }
+    
+    .spin{
+        overflow: hidden;
+        text-align: center;
+    }
+    .spin> span{
+       position: relative;
+       display: inline-block;
+    }
+    .spin > span:before, .spin > span:after{
+       content: '';
+       position: absolute;
+       top: 50%;
+       border-bottom: 2px solid;
+       width: 650px; 
+       margin: 0 20px;
+    }
+    .spin > span:before{
+       right: 100%;
+    }
+    .spin > span:after{
+       left: 100%;
+    }
+    
+    #Desc img {
+        border-style: none;
+        border-radius: 50%;
+        margin-left: 15%;
+     
+        
+    }
+    .Description p{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-left: 20%;
+        margin-left: -15%;
+    
+    }
+    .aboutUs{
+        background-color:rgb(224, 239, 240);
+        width: 100%;
+        padding-top: 0;
+        font-family:"mula";
+        margin-top: -30px;
+        height: 300px;
+    }
+    #Desc{
+       flex-direction: row;
+       display:flex;
+       margin-top:-50px;
+    
+       
+    }
+     
+    
+            .services{
+                background-color:rgb(224, 239, 240);
+                height:300px;
+                margin-top: -30px;
+                
+            }
+            .services h4{
+                text-align:center;
+                font-size: 25px;
+                color:green;
+                padding:20px;
+            }
+            
+            .Allservices{
+                flex-direction: row;
+                display:flex;
+                justify-content: center; 
+                }
+                #Delivery img{
+                    padding: 0px;
+                    border-radius: 50%;
+                    margin-left:15px;
+                }
+                .Delivery img{
+                    border-radius: 50%;
+                         }
+                .Training img{
+                border-radius: 50%;
+                        } 
+                .Support img{
+                border-radius: 50%; 
+                        }        
+                .contact{
+                    background-color:green;   
+                    padding-top:20px;
+                    height: 200px;
+                  
+                }
+                .contact h3{
+                    text-align:center;
+                    font-size: 25px;
+                    color:black;
+                    text-transform: uppercase;
+                    
+                }
+                #Details{
+                    text-align: center;
+                }
+                    
+                #Details h4{
+                    color: white;
+                }
+                #Details p{
+                    margin-top: -20px; 
+                    font-size: 15px;
+                }  
+            
+    
+     
